@@ -642,7 +642,6 @@ a[data-lightbox]:hover img {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6,
 p,
@@ -652,6 +651,12 @@ a {
     font-family: "helvetica";
     font-weight: 500;
     color: #434141!important;
+}
+
+h4 {
+font-family: "helvetica";
+font-weight: 600;
+color: #434141!important;
 }
 
 .container {
