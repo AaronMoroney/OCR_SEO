@@ -41,7 +41,8 @@ a {
 
 h1 {
     margin: .67em 0;
-    font-size: 2em
+    font-size: 2em;
+    padding-bottom: 10px;
 }
 
 
@@ -130,8 +131,8 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    display: block;
-    max-width: 100%;
+   
+    max-width: 60%;
     height: auto
 }
 
@@ -328,7 +329,6 @@ p {
     width: 100%
 }
 
-
 f
 .btn {
     display: inline-block;
@@ -415,6 +415,28 @@ f
     border-radius: 1px
 }
 
+.whitetext {
+    color: white !important;
+}
+
+.titleQuotes {
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    opacity: 80%;
+}
+.title-quotes-smaller {
+    font-family: Helvetica, sans-serif;
+    font-size: 12.5px;
+    font-style: italic;
+    opacity: 80%;
+}
+
+.nontitleQuotes {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+}
+
 .navbar-toggle .icon-bar+.icon-bar {
     margin-top: 4px
 }
@@ -476,3 +498,5 @@ f
     margin-right: auto;
     margin-left: auto
 }
+
+
