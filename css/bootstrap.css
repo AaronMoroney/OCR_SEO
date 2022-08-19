@@ -32,12 +32,9 @@ summary {
     display: block
 }
 
-
 a {
     background-color: transparent
 }
-
-
 
 h1 {
     margin: .67em 0;
@@ -45,13 +42,9 @@ h1 {
     padding-bottom: 10px;
 }
 
-
-
 img {
     border: 0
 }
-
-
 
 button,
 input,
@@ -79,8 +72,6 @@ input[type=submit] {
     -webkit-appearance: button;
     cursor: pointer
 }
-
-
 
 * {
     -webkit-box-sizing: border-box;
@@ -136,8 +127,6 @@ img {
     height: auto
 }
 
-
-
 .sr-only {
     position: absolute;
     width: 1px;
@@ -148,8 +137,6 @@ img {
     clip: rect(0, 0, 0, 0);
     border: 0
 }
-
-
 
 .h1,
 .h2,
@@ -169,8 +156,6 @@ h6 {
     color: inherit
 }
 
-
-
 .h1,
 .h2,
 .h3,
@@ -181,8 +166,6 @@ h3 {
     margin-bottom: 10px
 }
 
-
-
 .h4,
 .h5,
 .h6,
@@ -192,8 +175,6 @@ h6 {
     margin-top: 10px;
     margin-bottom: 10px
 }
-
-
 
 .h1,
 h1 {
@@ -218,22 +199,16 @@ h4 {
 .h5,
 h5 {
     font-size: 15px
-
 }
-
-
 
 p {
     margin: 0 0 10px
 }
 
-
 .text-center {
     text-align: center
 
 }
-
-
 
 .page-header {
     padding-bottom: 9px;
@@ -241,15 +216,12 @@ p {
     border-bottom: 1px solid #eee
 }
 
-
-
 .container {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto
 }
-
 
 .row {
     margin-right: -15px;
@@ -364,9 +336,6 @@ f
     display: none
 }
 
-
-
-
 .navbar-collapse {
     padding-right: 15px;
     padding-left: 15px;
@@ -377,8 +346,6 @@ f
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1)
 }
 
-
-
 .navbar-brand {
     float: left;
     height: 50px;
@@ -387,12 +354,9 @@ f
     line-height: 20px
 }
 
-
-
 .navbar-brand>img {
     display: block
 }
-
 
 .navbar-toggle {
     position: relative;
@@ -406,7 +370,6 @@ f
     border: 1px solid transparent;
     border-radius: 4px
 }
-
 
 .navbar-toggle .icon-bar {
     display: block;
@@ -499,4 +462,12 @@ f
     margin-left: auto
 }
 
+@media (min-width: 768px) {
+    .navbar-collapse.collapse {
+        display: Block !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important;
+    }
+}
 
